@@ -117,10 +117,10 @@ Random = randomValue()
 print(Random.random_dice())
 
 #using zip
-questions = ['name', 'quest', 'favorite color']
-answers = ['lancelot', 'the holy grail', 'blue']
-for q, a in zip(questions, answers):
-    print(f"What is your {q}? It is {a}")
+ask_question = ['name', 'department', 'favorite color', 'favorite food']
+answers = ['Inu John', 'CSC', 'Red', 'nothing']
+for ask, ans in zip(ask_question, answers):
+    print(f"What is your {ask}? {ans}")
 
 # fomatting numbers
 dictt = {"Praise": 23, "Ivanka": 23, "Uddin": 23, "Mr. Frodo": 23}
